@@ -1,5 +1,7 @@
-package hello.aop.internalcall;
+package hello.aop.exam.internalcall;
 
+import hello.aop.internalcall.CallLogAspect;
+import hello.aop.internalcall.CallServiceV0;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
